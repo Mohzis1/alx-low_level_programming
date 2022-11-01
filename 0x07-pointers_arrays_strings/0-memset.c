@@ -5,18 +5,17 @@
  * @s: pointer to the area to be filled
  * @n: number of bytes to be filled
  * @b: character to be filled
- * Return: a pointer @s
+ * Return: s
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int a;
-	unsigned char *s, char b;
+	unsigned int a = 0;
 
 	for (a = 0; a < n; a++)
 	{
 		s[a] = b;
-		a++
+		a++;
 	}
 
 	return (s);
