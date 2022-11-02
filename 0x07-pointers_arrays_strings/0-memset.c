@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _memset - Fills the first n bytes of the memory area
@@ -7,7 +8,6 @@
  * @b: character to be filled
  * Return: s
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int a = 0;
