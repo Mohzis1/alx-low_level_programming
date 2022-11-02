@@ -1,8 +1,9 @@
 #include "main.h"
+#include <stddef.h> 
 /**
  * _strchr - locates a character in a string
  * @c: ocucurence of the character
- * @s: string
+ * @s: in the string
  * Return: a pointer to the first occurence
  */
 char *_strchr(char *s, char c)
