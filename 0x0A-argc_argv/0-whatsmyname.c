@@ -1,10 +1,16 @@
 #include <stdio.h>
+#include "main.h"
+/**
+ * main - print the name of the program
+ * @argc: count argument
+ * @argv: argument
+ * Return: 0
+ */
 
-int main(int argc, char* argv)
+int main(int argc, char *argv)
 {
-	char name;
-	name = "Manny";
-	printf ("%d\n", name);
+	(void)argc;
+	printf ("%d\n", argv[0]);
 
 	return (0);
 }
