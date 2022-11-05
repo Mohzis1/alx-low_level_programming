@@ -9,17 +9,12 @@
 
 int main(int argc, char *argv[])
 {
-	/* Declaring variables */
-	int count = 0;
+	int i = 0;
 
-	if (argc > 0)
+	while (argc --)
 	{
-		/* WHILE - print each argument */
-		while (count < 0)
-		{
-			printf("%s\n", argv[count]);
-			count++;
-		}
+		printf("%s\n", argv[i]);
+		i++;
 	}
 	return (0);
 }

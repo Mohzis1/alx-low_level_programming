@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 /**
  * main - prints the multiplication of two interger
@@ -8,15 +9,15 @@
  */
 int main(int argc, char *argv[])
 {
-	int a, b;
-
-	if (argc == 3)
+	if (argc > 2)
 	{
-		a == (argv[1]);
-		b == (argv[2]);
-		printf("%d\n", a * b);
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 		return (0);
 	}
-	printf("Error\n");
-	return (1);
+	else if (argc < 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
+	return (0);
 }
