@@ -4,9 +4,9 @@
 
 /**
  * **argstostr -  a function that concatenates all the arguments of your program.
- * *@ac : int
- * *@av : array
- * *Return: array
+ * @ac : int
+ * @av : array
+ * Return: array
  */
 
 char *argstostr(int ac, char **av)
@@ -19,7 +19,7 @@ char *argstostr(int ac, char **av)
 	for (i = 0; (i < ac); i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
-			l++;
+		l++;
 		l++;
 	}
 
