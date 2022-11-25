@@ -5,12 +5,13 @@
 
 /**
  * print_list - Write a function that prints all the elements
- *   * @h: name of the list
- *    * Return: the number of nodes.
- *     */
+ * @h: name of the list
+ * Return: the number of nodes.
+ */
 size_t print_list(const list_t *h)
 {
 	int count = 0;
+
 	while (h)
 	{
 		if (h->str == NULL)
